@@ -1,0 +1,245 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  font-family: "Poppins", sans-serif;
+}
+.chatNav {
+  display: flex;
+  flex-direction: column;
+  width: 12%;
+  align-items: center;
+  height: 660px;
+  justify-content: space-around;
+  box-shadow: 4px 0px 6px lightgrey;
+  background: linear-gradient(45deg, #2f89fc 0%, #ff5db1 100%);
+  color: white;
+  border-right: 1px solid white;
+}
+
+.chatNav img {
+  width: 25px;
+}
+.chatNav span {
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+}
+#appLogo {
+  width: 64px;
+  position: relative;
+  top: 6px;
+}
+
+.chatNav label {
+  display: inline-block;
+  position: relative;
+  bottom: 64px;
+  font-size: 18px;
+  font-weight: 500;
+  text-shadow: 1px 1px 3px lightgrey;
+}
+
+#userImg {
+  border-radius: 50%;
+  width: 65px;
+  position: relative;
+  bottom: -20px;
+}
+
+/* new section css */
+
+body {
+  display: flex;
+}
+ul {
+  background-color: floralwhite;
+  padding-left: 0px;
+  display: inline-flex;
+  flex-direction: column;
+  width: 450px;
+  height: 660px;
+  align-items: center;
+  margin-left: 2px;
+  border-right: 1px solid gray;
+}
+.accordion {
+  width: 100%;
+  height: 20%;
+  text-align: center;
+}
+.accordion-button {
+  background-color: floralwhite;
+}
+#appLogo {
+  width: 64px;
+  position: relative;
+  top: 6px;
+}
+.chatNav label {
+  color: white;
+  display: inline-block;
+  position: relative;
+  bottom: 64px;
+  font-size: 18px;
+  font-weight: 500;
+  text-shadow: 1px 1px 3px lightgrey;
+}
+.searchBar {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 0px 0px 33px 0px;
+  padding: 20px;
+  padding-left: 60px;
+  /* background-color: rgb(13 110 253 / 25%); */
+  background: linear-gradient(45deg, #db00ff 0%, #5dffa2 100%);
+  color: white;
+}
+
+.d-flex {
+  position: relative;
+  bottom: 26px;
+}
+label {
+  display: inline-block;
+  position: relative;
+  bottom: -5px;
+  font-size: 18px;
+  font-weight: 500;
+  text-shadow: 1px 1px 3px lightgrey;
+}
+
+/* bootstrap changed css */
+.accordion-button::after {
+  background-image: none;
+}
+.accordion-button:not(.collapsed)::after {
+  background-image: none;
+}
+
+/* <!-- custom styles for chat section --> */
+.chatPage {
+  width: 800px;
+  height: 660px;
+}
+.topSection {
+  border: 1px solid #e6e6e6;
+  display: flex;
+  justify-content: space-between;
+  height: 15%;
+  align-items: center;
+  background-color: aliceblue;
+}
+.userInfo {
+  width: 73%;
+  display: flex;
+  padding-left: 47px;
+  align-items: center;
+  justify-content: flex-start;
+}
+.options {
+  display: contents;
+}
+.middleSection {
+  border: 1px solid #e6e6e6;
+  width: 100%;
+  height: 62%;
+  padding: 10px 30px;
+  background: linear-gradient(45deg, #c0e8c8 0%, #6492ee 100%);
+  overflow-y: auto;
+}
+
+.bottomSection {
+  border: 1px solid #e6e6e6;
+  width: 100%;
+  height: 23%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: lightskyblue;
+}
+.chatBox {
+  width: 38pc;
+  height: 42px;
+}
+#emoji {
+  position: relative;
+  left: 0px;
+  width: 42px;
+  padding: 1px;
+  border-radius: 30px;
+}
+#btnId{
+  background-color: white;
+  border-radius: 9px;
+  width: 36px;
+}
+
+/* javascript dark mode styles */
+.darkMode {
+  background: linear-gradient(45deg, #090031 0%, #090031 100%);
+  color: white;
+}
+
+/* google search */
+table.gsc-search-box td.gsc-input {
+  padding-right: 12px;
+  width: 330px;
+}
+.gsc-control-cse {
+  background-color: #fefff8;
+  border: 1px solid #fff;
+}
+.gsc-input-box {
+  border: 1px solid #dfe1e5;
+  background: #fff;
+  border-radius: 25px;
+}
+
+/* profile style */
+.list-group-flush {
+  border-radius: 0;
+  height: 0px;
+  position: absolute;
+}
+.list-group-flush > .list-group-item {
+  border-width: 0 0 1px;
+  margin: 2px 0px;
+  border-radius: 20px;
+  color: blue;
+}
+
+.card-header {
+  padding: 0.5rem 1rem;
+  margin-bottom: 0;
+  background-color: rgba(0, 0, 0, 0.03);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+  color: blue;
+}
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 14.25rem;
+}
+
+/* emoji button */
+.btn-secondary {
+  color: #fff;
+  background: transparent;
+  border: none;
+}
+.btn-secondary:hover {
+  color: #fff;
+  background: transparent;
+  border: none;
+  border-radius: 50%;
+}
+btn-check:focus + .btn-secondary,
+.btn-secondary:focus {
+  border-color: lightskyblue;
+}
